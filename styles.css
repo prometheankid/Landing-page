@@ -137,22 +137,22 @@ p {
 }
 
 .spartan:hover {
-    background-image: url("/home/promethean/repos/Landing-page/images/spartan.jpg");
+    background-image: url("images/spartan.jpg");
     background-size: 185px 225px;
 }
 
 .mastery:hover {
-    background-image: url("/home/promethean/repos/Landing-page/images/art.jpg");
+    background-image: url("images/art.jpg");
     background-size: 185px 225px;
 }
 
 .literacy:hover {
-    background-image: url("/home/promethean/repos/Landing-page/images/books.jpg");
+    background-image: url("images/books.jpg");
     background-size: 185px 225px;
 }
 
 .skills:hover {
-    background-image: url("/home/promethean/repos/Landing-page/images/skills.jpg");
+    background-image: url("images/skills.jpg");
     background-size: 185px 225px;
 }
 
