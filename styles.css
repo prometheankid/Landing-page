@@ -3,7 +3,7 @@
 
 .header {
     background-color: #1F2937;
-    padding: 10px 15% 30px;
+    padding: 10px 15% 5%;
     display: flex;
     justify-content: space-between;
 
@@ -34,7 +34,7 @@ a {
     background-color: #1F2937;
     display: flex;
     gap: 55px;
-    padding: 10px 15% 80px;
+    padding: 10px 15% 5%;
 }
 
 .hero-title {
@@ -95,7 +95,7 @@ p {
 /*section 3: information section*/
 
 .info-container {
-    padding: 10px 15% 80px;
+    padding: 10px 15% 5%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -119,16 +119,41 @@ p {
 }
 
 .info-i {
-    background-color: rgba(0,124,124,0.3);
+    background-color: rgba(0,0,0,1);
     width: 185px;
     border: 2px solid black;
 }
 
-.img2 {
+.spartan,
+.mastery,
+.literacy,
+.skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0 0 10px;
-    background-color: inherit;
     width: 185px;
-    height: 225px;
+    height: 225px;   
+}
+
+.spartan:hover {
+    background-image: url("/home/promethean/repos/Landing-page/images/spartan.jpg");
+    background-size: 185px 225px;
+}
+
+.mastery:hover {
+    background-image: url("/home/promethean/repos/Landing-page/images/art.jpg");
+    background-size: 185px 225px;
+}
+
+.literacy:hover {
+    background-image: url("/home/promethean/repos/Landing-page/images/books.jpg");
+    background-size: 185px 225px;
+}
+
+.skills:hover {
+    background-image: url("/home/promethean/repos/Landing-page/images/skills.jpg");
+    background-size: 185px 225px;
 }
 
 
@@ -136,7 +161,7 @@ p {
 .sub {
     display: flex;
     flex-wrap: wrap;
-    color: #1F2937;
+    color: rgba(255,255,255,1);
     text-align: center;
 }
 .info-i {
@@ -149,7 +174,7 @@ p {
 
 .quote {
     background-color: #E5E7EB;
-    padding: 55px 15%;
+    padding: 5% 15%;
     display: flex;
     flex-direction: column;
 }
@@ -175,10 +200,12 @@ p {
 /*section 5: call to action*/
 
 .action-container {
-    padding: 80px 15%;
+    padding: 5% 15%;
 }
 
 .action {
+    padding: 4% 8%;
+    border-radius: 12px;
     background-color: #3882F6;
     display: flex;
     justify-content: space-around;
@@ -189,10 +216,21 @@ p {
     display: flex;
     flex-direction: column;
 }
+
+.call1 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
 .act {
     border: 1px solid white;
     border-radius: 5px;
     padding: 5 20px;
+}
+
+.act:hover {
+    background-color: #1F2937;
 }
 
 /*section 6: footer*/
